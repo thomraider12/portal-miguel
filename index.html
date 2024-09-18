@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="pt">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Portal da Queixa do Miguel</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <h1>Portal da Queixa do Miguel</h1>
+    </header>
+    
+    <main>
+        <section id="queixa-form">
+            <h2>Submete a tua Queixa</h2>
+            <form id="formQueixa">
+                <label for="queixa">Escreve a tua queixa:</label>
+                <textarea id="queixa" name="queixa" rows="4" required></textarea>
+                <button type="submit">Submeter Queixa</button>
+            </form>
+        </section>
+
+        <section id="queixas-lista">
+            <h2>Lista de Queixas</h2>
+            <ul id="listaQueixas"></ul>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

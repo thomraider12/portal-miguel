@@ -1,0 +1,78 @@
+/* Estilos básicos */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: #4CAF50;
+    color: white;
+    text-align: center;
+    padding: 1rem;
+}
+
+main {
+    padding: 1rem;
+}
+
+/* Formulário */
+#queixa-form {
+    background-color: white;
+    padding: 1rem;
+    margin-bottom: 2rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#queixa-form label, #queixa-form textarea {
+    display: block;
+    width: 100%;
+    margin-bottom: 1rem;
+}
+
+#queixa-form button {
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    padding: 0.5rem 1rem;
+    border-radius: 5px;
+    cursor: pointer;
+    width: 100%;
+}
+
+#queixa-form button:hover {
+    background-color: #45a049;
+}
+
+/* Lista de Queixas */
+#queixas-lista {
+    background-color: white;
+    padding: 1rem;
+    border-radius: 10px;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
+}
+
+#queixas-lista ul {
+    list-style-type: none;
+    padding: 0;
+}
+
+#queixas-lista li {
+    background-color: #e0e0e0;
+    padding: 1rem;
+    margin-bottom: 1rem;
+    border-radius: 5px;
+}
+
+/* Responsividade para Samsung Galaxy A54/A53 */
+@media only screen and (max-width: 1080px) {
+    main {
+        padding: 0.5rem;
+    }
+
+    #queixa-form, #queixas-lista {
+        padding: 0.5rem;
+    }
+}
