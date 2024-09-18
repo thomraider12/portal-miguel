@@ -7,11 +7,16 @@ body {
 }
 
 header {
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
     text-align: center;
     padding: 1rem;
 }
+
+.titulo {
+
+}
+
 
 main {
     padding: 1rem;
@@ -33,7 +38,7 @@ main {
 }
 
 #queixa-form button {
-    background-color: #4CAF50;
+    background-color: blue;
     color: white;
     border: none;
     padding: 0.5rem 1rem;
@@ -43,7 +48,7 @@ main {
 }
 
 #queixa-form button:hover {
-    background-color: #45a049;
+    background-color: #0059ff;
 }
 
 /* Lista de Queixas */
