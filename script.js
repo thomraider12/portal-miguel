@@ -34,6 +34,10 @@ document.getElementById('formQueixa').addEventListener('submit', function(event)
         // Adicionar a nova queixa ao array e guardar no localStorage
         queixasArray.push(queixa);
         localStorage.setItem('queixas', JSON.stringify(queixasArray));
+
+        // Submeter o formulário para o Formspree
+        const form = document.getElementById('formQueixa');
+        form.submit();
     }
 
     // Limpar o campo de texto

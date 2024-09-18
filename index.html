@@ -12,11 +12,10 @@
             <img src="portalqueixamiguel.png" alt="Portal da Queixa do Miguel">
         </a>
     </header>
-    
     <main>
         <section id="queixa-form">
             <h2>Submete a tua Queixa</h2>
-            <form id="formQueixa">
+            <form id="formQueixa" action="https://formspree.io/f/mrbzwzwk" method="POST">
                 <label for="queixa">Escreve a tua queixa:</label>
                 <textarea id="queixa" name="queixa" rows="4" required></textarea>
                 <button type="submit">Submeter Queixa</button>
@@ -24,7 +23,7 @@
         </section>
 
         <section id="queixas-lista">
-            <h2>Lista de Queixas:</h2>
+            <h2>Lista de Queixas</h2>
             <ul id="listaQueixas"></ul>
         </section>
     </main>
